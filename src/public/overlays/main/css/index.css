@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Furore";
+    src: url('/assets/overlay/Furore.otf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Furore", serif;
+    height: 100%;
+}
+
+body {
+    background-image: url('/assets/overlay/lvbeoverlaty.png');
+    padding-top: 751px;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rect-holder {
+    position: relative;
+}
+
+.background-image-wrapper {
+    position: absolute;
+    z-index: -1;
+    height: 162px;
+    display: flex;
+    align-items: center;
+}
+
+.left-image {
+    left: 0;
+}
+
+.right-image {
+    right: 0;
+}
+
+.team-panel-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.team-image-border {
+    height: 157px;
+    min-width: 157px;
+    border: 5px solid #FFB400;
+    background-color: #262626;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-image-placeholder{
+    width: 130px;
+    height: 130px;
+    background-color: #989898;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-image {
+    width: 90px;
+    height: 90px;
+}
+
+.text-container {
+    margin-top: -20px;
+}
+
+.teamname-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-left {
+    height: 40px;
+    font-size: 36px;
+    color: #0EC7D2;
+}
+
+.text-right {
+    height: 40px;
+    font-size: 36px;
+    color: #FF3273;
+}
+
+.score-text {
+    padding-left: 6px;
+    color: #9C93A0;
+    font-size: 24px;
+}
+
+.score-text-right {
+    text-align: right;
+}
