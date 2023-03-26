@@ -91,14 +91,14 @@ body {
     height: 40px;
     font-size: 36px;
     color: #0EC7D2;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .text-right {
     height: 40px;
     font-size: 36px;
     color: #FF3273;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .score-text {
