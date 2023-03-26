@@ -22,7 +22,6 @@
                     <div id="team-left-name" class="teamname-container text-left">
                     </div>
                     <div id="team-left-score" class="score-text">
-                        SCORE:
                     </div>
                 </div>
             </div>
@@ -86,9 +85,9 @@
         }
 
         const applyTeamStats = (teamObject, teamStats) => {
-            teamObject['team_image'].src = teamStats['team_image'] || '/assets/overlay/ex_teamlogo.svg';
+            teamObject['team_image'].src = teamStats['team_image'] || '/api/assets/overlay/ex_teamlogo.svg';
             teamObject['team_name'].innerText = teamStats['team_name'];
-            teamObject['team_score'].innerText = `SCORE: ${teamStats['team_score']}`
+            teamObject['team_score'].innerText = `MAP SCORE: ${teamStats['team_score']}`
         }
 
         const URL = `${location.protocol}//${location.hostname}:${location.port}/api/match/teams_settings`;
