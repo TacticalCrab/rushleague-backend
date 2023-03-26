@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Furore";
-    src: url('/assets/overlay/Furore.otf');
+    src: url('/api/assets/overlay/Furore.otf');
 }
 
 html, body {
@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background-image: url('/assets/overlay/lvbeoverlaty.png');
+    background-image: url('/api/assets/overlay/lvbeoverlaty.png');
     padding-top: 751px;
     height: 100%;
 }
