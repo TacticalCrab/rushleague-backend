@@ -8,16 +8,17 @@ import {
     Unique,
     Model,
     BeforeCreate,
-    UpdatedAt
+    UpdatedAt, AutoIncrement
 } from 'sequelize-typescript';
 
 
 @Table({ tableName: "Users"})
 export class UserModel extends Model {
+    @AutoIncrement
     @PrimaryKey
     @Unique
-    @Column(DataTypes.STRING)
-    id: string;
+    @Column(DataTypes.INTEGER)
+    id: number;
 
     @Unique
     @AllowNull(false)

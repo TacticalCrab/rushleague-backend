@@ -27,7 +27,5 @@ export class AuthController {
         }
 
         request.session.userId = user.id;
-
-
     }
 }

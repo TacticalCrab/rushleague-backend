@@ -23,7 +23,6 @@ export class MatchService {
     }
 
     setTeamsSettings(teamSettings: SetTeamsSettingsDto) {
-        console.log(teamSettings);
         this.teamsSettings = teamSettings;
     }
 }
