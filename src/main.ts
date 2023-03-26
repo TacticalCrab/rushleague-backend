@@ -6,7 +6,6 @@ import {NestExpressApplication} from '@nestjs/platform-express';
 import * as express from 'express';
 import {config} from 'dotenv';
 
-
 config();
 async function bootstrap() {
   const app: NestExpressApplication = await NestFactory.create(AppModule);
