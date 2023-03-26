@@ -22,7 +22,7 @@ export class HeroModule implements OnModuleInit{
             }
         });
 
-        const fileNames = fs.readdirSync('./src/public/assets/hero');
+        const fileNames = fs.readdirSync('./src/public/api/assets/hero');
         fileNames.forEach((fileName) => {
             const lowerFileName = fileName.toLowerCase();
 
